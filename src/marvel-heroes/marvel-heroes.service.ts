@@ -2,7 +2,7 @@ import { HttpService } from '@nestjs/axios';
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { HeroDto } from './dtos/heroe.dto';
+import { HeroDto } from './dtos/hero.dto';
 const md5 = require('crypto-js/md5');
 
 @Injectable()
